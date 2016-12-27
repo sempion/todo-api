@@ -1,11 +1,11 @@
 // var person = {
-// 	name: "Andrew",
+// 	name: 'Andrew',
 // 	age: 21
 // };
 
-// function updatePerson(obj) {
+// function updatePerson (obj) {
 // 	// obj = {
-// 	// 	name: "Andrew",
+// 	// 	name: 'Andrew',
 // 	// 	age: 24
 // 	// };
 // 	obj.age = 24;
@@ -15,16 +15,14 @@
 // console.log(person);
 
 // Array Example
+var grades = [15, 88];
 
-let grades = [15, 37];
-
-function addGrade(arr) {
-	//arr = [15, 37, 23, 34];
-	arr.push(36);
+function addGrades (gradesArr) {
+	gradesArr.push(55);
 	debugger;
+
+	// gradesArr = [12, 33, 99];
 }
 
-
-
-addGrade(grades)
+addGrades(grades);
 console.log(grades);
